@@ -1,0 +1,44 @@
+# General
+*.log
+*.class
+*.pyc
+*.swp
+.DS_Store
+
+# IDE-specific
+.idea/
+*.iml
+*.ipr
+*.iws
+# .vscode/ is often kept for shared launch configurations
+
+# Flutter/Dart
+/build/
+.dart_tool/
+.packages
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+
+# Android
+/android/app/build/
+/android/build/
+/android/.gradle/
+/android/gradle/
+/android/local.properties
+/android/app/src/main/jniLibs/
+
+# iOS
+/ios/Pods/
+/ios/Flutter/App.framework
+/ios/Flutter/engine
+/ios/Flutter/flutter_assets
+/ios/Flutter/.symlinks/
+/ios/Runner/GeneratedPluginRegistrant.h
+/ios/Runner/GeneratedPluginRegistrant.m
+/ios/Runner/Pods/
+/ios/Runner/Runner.xcworkspace/
+/ios/Runner.xcworkspace/
+/ios/Runner.xcodeproj/project.xcworkspace/
+/ios/Runner.xcodeproj/xcuserdata/
+Podfile.lock
